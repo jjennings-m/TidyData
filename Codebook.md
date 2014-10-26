@@ -26,12 +26,29 @@ There are 20 time variables prefixed with time_
 
 There are 13 frequency variables prefixed with frequency_
 
-There are 9 variables, 3 each representing the x, y, and z axis measurements for time body (prefixed by time_body_accelerometer_), time gravity (prefixed by time_gravity_motion_accelerometer_), and time body (prefixed by time_body_gyroscope_).
+There are 9 variables, 3 each representing the x, y, and z axis:
+* measurements for time body prefixed by (time_body_accelerometer_)
+* time gravity prefixed by (time_gravity_motion_accelerometer_)
+* and time body prefixed by (time_body_gyroscope_)
 
-There are 6 derived variables, 3 each representing the x, y, and z axis for linear acceleration (prefixed by time_body_accelerometer_jerk_motion_) and angular velocity (prefixed by time_body_gyroscope_jerk_motion_).
+There are 6 derived variables, 3 each representing the x, y, and z axis:
+* linear acceleration prefixed by (time_body_accelerometer_jerk_motion_)
+* angular velocity prefixed by (time_body_gyroscope_jerk_motion_)
 
-There are 5 calculated variables representing the magnitude of the above 3D signals, prefixed with (time_body_accelerometer_magnitude_),(time_gravity_motion_accelerometer_magnitude_),(time_body_accelerometer_jerk_motion_magnitude_),(time_body_gyroscope_magnitude_), and (time_body_gyroscope_jerk_magnitude_).
+There are 5 calculated variables representing the magnitude of the above 3D signals, prefixed with:
+* (time_body_accelerometer_magnitude_)
+* (time_gravity_motion_accelerometer_magnitude_)
+* (time_body_accelerometer_jerk_motion_magnitude_)
+* (time_body_gyroscope_magnitude_)
+* (time_body_gyroscope_jerk_magnitude_)
 
-There are 9 frequency signals, 3 each for the x, y, and z axis, representing accelerometer (prefixed by frequency_body_accelerometer_), the jerk motion of the accelerometer (prefixed by frequency_body_accelerometer_jerk_motion_), and the gyroscope (prefixed by frequency_body_gyroscope_).
+There are 9 frequency signals, 3 each for the x, y, and z axis:
+* accelerometer (prefixed by frequency_body_accelerometer_)
+* jerk motion of the accelerometer (prefixed by frequency_body_accelerometer_jerk_motion_)
+* gyroscope (prefixed by frequency_body_gyroscope_)
 
-There are 4 calculated variables representing the magnitude of the above 3D signals, prefixed with (frequency_body_accelerometer_magnitude_), (frequency_body_accelerometer_jerk_motion_magnitude), (frequency_body_gyroscope_magnitude_), and (frequency_body_gyroscope_jerk_motion_magnitude_).
+There are 4 calculated variables representing the magnitude of the above 3D signals, prefixed with:
+* (frequency_body_accelerometer_magnitude_)
+* (frequency_body_accelerometer_jerk_motion_magnitude)
+* (frequency_body_gyroscope_magnitude_)
+* (frequency_body_gyroscope_jerk_motion_magnitude_)
